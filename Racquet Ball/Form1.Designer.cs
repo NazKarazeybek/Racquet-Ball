@@ -38,12 +38,13 @@
             // winLabel
             // 
             this.winLabel.BackColor = System.Drawing.Color.Transparent;
-            this.winLabel.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.winLabel.Font = new System.Drawing.Font("Consolas", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.winLabel.ForeColor = System.Drawing.Color.White;
-            this.winLabel.Location = new System.Drawing.Point(115, 276);
+            this.winLabel.Location = new System.Drawing.Point(12, 276);
             this.winLabel.Name = "winLabel";
-            this.winLabel.Size = new System.Drawing.Size(654, 56);
+            this.winLabel.Size = new System.Drawing.Size(876, 56);
             this.winLabel.TabIndex = 0;
+            this.winLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // p1ScoreLabel
             // 
@@ -80,10 +81,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(869, 575);
+            this.ClientSize = new System.Drawing.Size(900, 575);
             this.Controls.Add(this.p2ScoreLabel);
             this.Controls.Add(this.p1ScoreLabel);
             this.Controls.Add(this.winLabel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Paint += new System.Windows.Forms.PaintEventHandler(this.Form1_Paint);
